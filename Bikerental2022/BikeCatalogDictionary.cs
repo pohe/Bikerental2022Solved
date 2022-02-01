@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bikerental2022
 {
-    class BikeCatalogDictionary
+    class BikeCatalogDictionary:IBikeCatalog
     {
         public Dictionary<int, Bike> bikeDictionary;
 
